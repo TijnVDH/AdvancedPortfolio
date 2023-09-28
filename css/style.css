@@ -71,7 +71,7 @@ body
 
 ::-webkit-scrollbar-track 
 {
-    background: #181A1C;
+    background: #0E161D;
     border-radius: 100vw;
 }
 
@@ -80,7 +80,7 @@ body
 {
     background: #FFFAFA;
     border-radius: 75vw;
-    border: 0.25em solid #181A1C;
+    border: 0.25em solid #0E161D;
 }
 
 /* Navbar */
@@ -116,37 +116,95 @@ body
   transition: 1.5s;
 }
 
-/* Intro */
+/* Homepage */
 
-.reveal
+.first-heading
 {
-  position: relative;
-  transform: translateY(100px);
-  opacity: 0;
-  transition: all 1s ease;
+    font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: 8px;
 }
 
-.reveal.active
+.subheading
 {
-  transform: translateY(0px);
-  opacity: 1;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.blue-text
+{
+    margin: auto;
+    color: #00c9fd;
+}
+
+.explore
+{
+    margin-top: 50px;
+    padding: 10px 25px;
+    border-color: #00c9fd;
+    border-style: solid;
+    background-color: transparent;
+    color: #00c9fd;
+    letter-spacing: 4px;
+    font-weight: bolder;
 }
 
 .placeholder
 {
-  width: 100%;
-  height: 100px;
+    width: 100%;
+    height: 100px;
 }
-
 
 .main
 {
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: -10px;
-  margin-bottom: 90px;
-  padding: 0 25px;
-  height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    height: 88vh;
+    padding: 150px 50px;
 }
 
+.secondary
+{
+    background-color: #0E161D;
+    height: 100vh;
+}
+
+.containerproject
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project
+{
+    height: 475px;
+    width: 350px;
+    padding: 10px;
+    margin: 40px;
+    background-color: red;
+}
+
+.intro
+{
+    display: flex;
+}
+
+/* Text and stuff */
+
+.reveal
+{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
