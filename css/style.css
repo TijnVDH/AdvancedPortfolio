@@ -209,7 +209,8 @@ body
 
 .otherprojects
 {
-    font-size: 24px;
+    letter-spacing: 4px;
+    font-size: 20px;
     padding: 0 25px 20px;
 }
 
@@ -222,8 +223,9 @@ body
 
 .contact
 {
+    letter-spacing: 4px;
     padding: 0 25px 20px;
-    font-size: 24px;
+    font-size: 20px;
     margin-left: auto;
     text-decoration: none;
 }
@@ -238,8 +240,9 @@ body
 
 .semesters
 {
+    letter-spacing: 4px;
     padding: 0 25px 20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footerbar
