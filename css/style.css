@@ -197,12 +197,26 @@ body
     border-radius: 15px;
 }
 
+.project-info
+{
+    opacity: 1;
+    bottom: 0;
+    z-index: 100;
+    text-align: center;
+    padding: 24px;
+    transform: translateY(375px);
+    transition: .5s;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
 /* Footer */
 
 .footer
 {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 50px 0 26px;
     display: flex;
 }
@@ -210,7 +224,7 @@ body
 .otherprojects
 {
     letter-spacing: 4px;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 25px 20px;
 }
 
@@ -225,7 +239,7 @@ body
 {
     letter-spacing: 4px;
     padding: 0 25px 20px;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: auto;
     text-decoration: none;
 }
@@ -242,7 +256,7 @@ body
 {
     letter-spacing: 4px;
     padding: 0 25px 20px;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .footerbar
@@ -270,4 +284,14 @@ body
 {
     transform: translateY(0px);
     opacity: 1;
+}
+
+.grid-img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.08);
+  transition: all .4s;
+  filter: blur(1.5px);
 }
