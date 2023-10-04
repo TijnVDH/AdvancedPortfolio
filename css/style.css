@@ -189,22 +189,47 @@ body
 
 .project
 {
-    height: 475px;
+    height: 500px;
     width: 350px;
-    padding: 10px;
-    margin: 40px;
-    background-color: #131F28;
+    margin: 35px;
+    position: relative;
+    overflow: hidden;
     border-radius: 15px;
+}
+
+.project:hover .project-info
+{
+  transform: translateY(-125px);
+}
+
+.project::before
+{
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: #0E161D;
+  position: absolute;
+  opacity: var(--hover-opacity);
+  z-index: 1;
+  transition: all .4s;
+}
+
+.project:hover::before
+{
+  opacity: var(--default-opacity);
+}
+
+.project:hover .grid-img
+{
+  transform: scale(1.01);
 }
 
 .project-info
 {
-    opacity: 1;
-    bottom: 0;
-    z-index: 100;
     text-align: center;
     padding: 24px;
-    transform: translateY(375px);
+    z-index: 1;
+    transform: translateY(-100px);
     transition: .5s;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -294,4 +319,5 @@ body
   transform: scale(1.08);
   transition: all .4s;
   filter: blur(1.5px);
+  z-index: 1;
 }
