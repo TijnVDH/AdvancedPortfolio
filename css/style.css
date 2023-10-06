@@ -63,6 +63,11 @@ body
     font-family: 'Montserrat'
 }
 
+ul
+{
+  list-style: none;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar 
@@ -86,6 +91,30 @@ body
 
 /* Navbar */
 
+.menu-link:hover
+{
+  color: #00c9fd;
+  transition: all .5s ease-in-out;
+}
+
+a.active
+{
+  position: relative;
+  text-decoration: none;
+  color: #88B0D7;
+}
+
+a.active::after
+{
+  content: "";
+  position: absolute;
+  background-color: #88B0D7;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  bottom: 20px;
+}
+
 .navbar 
 {
   position: fixed;
@@ -95,12 +124,63 @@ body
   align-items: center;
   width: 100%;
   margin: auto;
-  font-size: 22px;
+  font-size: 16px;
+  letter-spacing: 4px;
   font-weight: 10;
   min-height: 100px;
   transition: 0.5s;
   padding: 0 20px;
   z-index: 1000;
+}
+
+.sticky-home
+{
+  background-color: #181A1C;
+  z-index: 1000;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  min-height: 100px;
+  transition: 0.5s ease-out;
+  border-bottom-left-radius: 25px 20px;
+  box-shadow: 0 4px 1px -1px #181A1C;
+}
+
+.sticky-product
+{
+  z-index: 1000;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  min-height: 100px;
+  transition: 0.5s ease-out;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  transition: 0.5s ease-out;
+}
+
+.navbar li 
+{
+    padding: 10px;
+    margin: 12px;
+}
+
+.navbar ul, a {
+  text-decoration: none;
 }
 
 .navbar .logo
@@ -112,10 +192,118 @@ body
 {
   position: relative;
   margin-top: 15px;
-  margin-left: 40px;
+  margin-left: 10px;
   height: 70px;
   transition: 1.5s;
 }
+
+.sticky-home .logo img 
+{
+  position: relative;
+  margin-top: 15px;
+  margin-left: 25px;
+  height: 50px;
+  transition: 1.5s;
+}
+
+.sticky-product .logo img 
+{
+  position: relative;
+  margin-top: 15px;
+  margin-left: 25px;
+  height: 50px;
+  transition: 1.5s;
+}
+
+.toggle-button
+{
+  position: absolute;
+  top: 2rem;
+  right: 1.4rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45px;
+  height: 30px;
+  transition: all .5s ease-in-out;
+}
+
+.toggle-button .bar2
+{
+  height: 4px;
+  width: 100%;
+  background-color: #FFFAFA;
+  border-radius: 25px;
+  transition: .5s ease-in-out;
+}
+
+.toggle-button .bar1
+{
+  height: 4px;
+  width: 100%;
+  background-color: #FFFAFA;
+  border-radius: 25px;
+  transition: transform 0.5s, width 0.5s;
+}
+
+.toggle-button .bar3
+{
+  height: 4px;
+  width: 100%;
+  background-color: #FFFAFA;
+  border-radius: 25px;
+  transition: transform 0.5s, width 0.5s;
+}
+
+.openmenu .bar1
+{
+  transform: translate(0%, 300%) rotate(-45deg);
+}
+
+.openmenu .bar3
+{
+  transform: translate(0%, -350%) rotate(45deg);
+}
+
+.openmenu .bar2
+{
+  width: 50%;
+  opacity: 0;
+}
+
+a.line
+{
+  position: relative;
+  text-decoration: none;
+  color: #00c9fd;
+}
+
+a.nav
+{
+  position: relative;
+  text-decoration: none;
+  color: #FFFAFA;
+}
+
+
+/* Fade in */
+a.line::after {
+  content: "";
+  position: absolute;
+  background-color: #00c9fd;
+  height: 2px;
+  width: 0%;
+  left: 0;
+  bottom: -6px;
+  transition: .5s;
+}
+
+a.line:hover::after
+{
+  width: 100%;
+}
+
+
 
 /* Homepage */
 
