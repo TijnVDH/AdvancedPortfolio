@@ -365,9 +365,76 @@ a.line:hover::after
     padding: 150px 50px;
 }
 
+
+.product-intro
+{
+  height: 25vh;
+  max-width: 100vw;
+  padding-top: 60px;
+  margin-bottom: 75px;
+}
+
+.first-heading
+{
+  font-size: 48px;
+  font-weight: 600;
+  opacity: 0.94;
+  color: #00c9fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fade-up 0.5s;
+}
+
+.product-heading
+{
+  font-size: 48px;
+  letter-spacing: 4px;
+  opacity: 0.94;
+  color: #00c9fd;
+  display: flex;
+  animation: fade-up 0.5s;
+}
+
+.text
+{
+  color: #FFFAFA;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 5px;
+  line-height: 1.1;
+  animation: fade-up 0.5s .1s backwards;
+}
+
+.product-text
+{
+  text-transform: uppercase;
+  color: #FFFAFA;
+  letter-spacing: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+  line-height: 1.1;
+  animation: fade-up 0.5s .1s backwards;
+}
+
+.product-main
+{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 90px;
+  padding: 0 25px;
+}
+
+.lees
+{
+  background-color: #0E161D;
+}
+
 .secondary
 {
-    background-color: #0E161D;
+    background-color: #131F28;
     height: 100vh;
 }
 
@@ -434,9 +501,10 @@ a.line:hover::after
 
 .footer
 {
-    max-width: 1240px;
-    margin: 25px auto;
-    padding: 50px 0 26px;
+    background-color: #0E161D;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 140px 25px;
     display: flex;
 }
 
@@ -484,17 +552,6 @@ a.line:hover::after
   color: #00c9fd;
 }
 
-.footerbar
-{
-    width: 600px;
-    height: 5px;
-    background-color: #00c9fd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 /* Text and stuff */
 
 .reveal
@@ -520,4 +577,63 @@ a.line:hover::after
   transition: all .4s;
   filter: blur(1.5px);
   z-index: 1;
+}
+
+hr
+{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-color: #181A1C;
+  border: 2px solid #181A1C;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.lees
+{
+  padding-top: 50px;
+  animation: fade-up .5s .3s backwards;
+  text-align: left;
+}
+
+.guide
+{
+  font-size: 24px;
+  color: #00c9fd;
+  font-style: italic;
+}
+
+.desc
+{
+  margin: 30px;
+  font-size: 16px;
+  padding-top: 10px;
+  color: #FFFAFA;
+  letter-spacing: .5px;
+}
+
+.column
+{
+  font-size: 16px;
+  padding-top: 10px;
+  color: #f0e4e4;
+  letter-spacing: .5px;  display: flex;
+  width: 100%;
+}
+
+.company 
+{
+  display: flex;
+  flex: 1;
+  transition: .5s ease;
+  margin: 30px;
+}
+
+.width
+{
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 90px;
+  padding: 0 25px;
 }
