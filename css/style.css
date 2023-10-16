@@ -505,9 +505,10 @@ a.line:hover::after
 
 .otherprojects
 {
-    letter-spacing: 4px;
+    letter-spacing: 8px;
     font-size: 16px;
     padding: 0 25px 20px;
+    font-weight: 300;
 }
 
 .contactdiv
@@ -519,11 +520,12 @@ a.line:hover::after
 
 .contact
 {
-    letter-spacing: 4px;
+    letter-spacing: 8px;
     padding: 0 25px 20px;
     font-size: 16px;
     margin-left: auto;
     text-decoration: none;
+    font-weight: 300;
 }
 
 .empty
@@ -539,12 +541,14 @@ a.line:hover::after
     letter-spacing: 4px;
     padding: 0 25px 20px;
     font-size: 12px;
+    font-weight: 200;
 }
 
 .semesters .email
 {
   text-decoration: none;
   color: #00c9fd;
+  font-weight: 200;
 }
 
 /* Text and stuff */
@@ -613,7 +617,7 @@ hr
 {
   margin: 0 30px;
   font-size: 16px;
-  padding-top: 10px;
+  padding-top: 30px;
   color: #FFFAFA;
   letter-spacing: .5px;
 }
