@@ -1,9 +1,12 @@
-@font-face 
-{
-    font-family: 'Deliverable';
-    src: url(../fonts/BarlowCondensed-Regular.ttf);
+@font-face {
+  font-family: 'Pro';
+  src: url(../fonts/RousseauDeco.ttf);
 }
 
+@font-face {
+  font-family: 'Text';
+  src: url(../fonts/BarlowCondensed-Regular.ttf);
+}
 /* Keyframes */ 
 
 @keyframes fade-up
@@ -60,7 +63,6 @@ body
     background-color: #131F28;
     overflow-x: hidden;
     color: #FFFAFA;
-    font-family: 'Montserrat'
 }
 
 ul
@@ -440,7 +442,7 @@ a.line:hover::after
 
 .containerproject
 {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
