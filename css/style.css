@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Text';
-  src: url(../fonts/BarlowCondensed-Regular.ttf);
+  src: url(../fonts/Koho.ttf);
 }
 /* Keyframes */ 
 
@@ -58,7 +58,7 @@ body
 {
     width: auto;
     height: auto;
-    font-family: 'Text';  
+    font-family: 'Kanit', sans-serif;    
     letter-spacing: 1px;
     background-color: #131F28;
     overflow-x: hidden;
@@ -309,18 +309,20 @@ a.line:hover::after
 
 /* Homepage */
 
+
 .first-heading
 {
-    font-size: 56px;
-    font-weight: normal;
-    letter-spacing: 8px;
-    animation: fade-up 0.5s;
+  letter-spacing: 16px;
+  font-size: 64px;
+  font-weight: 300;
+  color: #00c9fd;
+  animation: fade-up 0.5s;
 }
 
 .subheading
 {
-    font-size: 24px;
-    font-weight: lighter;
+    font-size: 36px;
+    font-weight: 200;
     letter-spacing: 4px;
     animation: fade-up 0.5s .1s backwards;
 }
@@ -340,7 +342,7 @@ a.line:hover::after
     background-color: transparent;
     color: #00c9fd;
     letter-spacing: 4px;
-    font-weight: bolder;
+    font-weight: bold;
     cursor: pointer;
     transition: .5s;
     animation: fade-up 0.5s .3s backwards;
@@ -374,18 +376,6 @@ a.line:hover::after
   max-width: 100vw;
   padding-top: 60px;
   margin-bottom: 75px;
-}
-
-.first-heading
-{
-  font-size: 48px;
-  font-weight: 600;
-  opacity: 0.94;
-  color: #00c9fd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: fade-up 0.5s;
 }
 
 .product-heading
@@ -432,17 +422,20 @@ a.line:hover::after
 .lees
 {
   background-color: #0E161D;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  animation: fade-up .5s .3s backwards;
+  text-align: left;
 }
 
 .secondary
 {
     background-color: #131F28;
-    height: 100vh;
 }
 
 .containerproject
 {
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -585,29 +578,40 @@ hr
 {
   margin-top: 35px;
   margin-bottom: 35px;
-  background-color: #181A1C;
-  border: 2px solid #181A1C;
+  background-color: #131F28;
+  border: 2px solid #131F28;
   border-radius: 5px;
   width: 100%;
 }
 
-.lees
+.width
 {
-  padding-top: 50px;
-  animation: fade-up .5s .3s backwards;
-  text-align: left;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 25px;
+  font-weight: 200;
 }
 
 .guide
 {
   font-size: 24px;
   color: #00c9fd;
-  font-style: italic;
+  letter-spacing: 6px;
+  font-weight: 300;
+}
+
+.guide-title
+{
+  font-size: 32px;
+  color: #00c9fd;
+  letter-spacing: 6px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .desc
 {
-  margin: 30px;
+  margin: 0 30px;
   font-size: 16px;
   padding-top: 10px;
   color: #FFFAFA;
@@ -618,9 +622,10 @@ hr
 {
   font-size: 16px;
   padding-top: 10px;
-  color: #f0e4e4;
+  color: #FFFAFA;
   letter-spacing: .5px;  display: flex;
   width: 100%;
+
 }
 
 .company 
@@ -629,13 +634,4 @@ hr
   flex: 1;
   transition: .5s ease;
   margin: 30px;
-}
-
-.width
-{
-  max-width: 1240px;
-  margin: 0 auto;
-  margin-top: -10px;
-  margin-bottom: 90px;
-  padding: 0 25px;
 }
