@@ -322,7 +322,7 @@ a.line:hover::after
 .subheading
 {
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 4px;
     animation: fade-up 0.5s .1s backwards;
 }
@@ -330,13 +330,28 @@ a.line:hover::after
 .subtitle
 {
   font-size: 18px;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-bottom: 30px;
   color: #FFFAFA;
   letter-spacing: 4px;
   font-weight: 200;
   margin-bottom: -20px;
   font-style: italic;
+}
+
+.target-list
+{
+  list-style: decimal-leading-zero;
+}
+
+.target-list li
+{
+  margin-left: 75px;
+  margin-bottom: -20px;
+  padding: 20px;
+  font-size: 16px;
+  color: #FFFAFA;
+  letter-spacing: .5px;
 }
 
 .blue-text
@@ -601,7 +616,7 @@ hr
 {
   margin: 0 30px;
   font-size: 16px;
-  padding-top: 30px;
+  padding-top: 25px;
   color: #FFFAFA;
   letter-spacing: .5px;
 }
