@@ -73,6 +73,11 @@ ul
   list-style: none;
 }
 
+ul li
+{
+  margin: 5px;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar 
