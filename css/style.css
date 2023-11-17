@@ -727,3 +727,24 @@ th, td
 {
   margin-top: 25px;
 }
+
+.company img
+{
+  transition: .5s ease;
+}
+
+.company .deliverable
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.company .deliverable:hover
+{
+  -webkit-transform:scale(1.5); /* or some other value */
+  transform:scale(1.5);
+  z-index: 2;
+}
