@@ -440,6 +440,17 @@ a.line:hover::after
   font-size: 48px;
   font-weight: 300;
   color: #00c9fd;
+  animation: fade-up 0.5s .1s backwards;
+}
+
+.project-heading
+{
+  text-transform: uppercase;
+  color: #00c9fd;
+  letter-spacing: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 10px;
   animation: fade-up 0.5s;
 }
 
