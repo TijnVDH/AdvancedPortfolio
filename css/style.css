@@ -60,11 +60,9 @@ body
     height: 100vh;
     font-family: 'Kanit', sans-serif;    
     letter-spacing: 1px;
-    background-image: url("/images/colorkit.png");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #0f1e29;
+    background-color: #0a1821;
     overflow-x: hidden;
     color: #FFFAFA;
 }
@@ -496,7 +494,7 @@ a.line:hover::after
 
 .secondary
 {
-  background-image: url("/images/colorkit.png");
+  background-image: url("../images/colorkit.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
