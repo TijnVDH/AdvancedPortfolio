@@ -60,10 +60,11 @@ body
     height: 100vh;
     font-family: 'Kanit', sans-serif;    
     letter-spacing: 1px;
+    background-image: url("/images/colorkit.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #131F28;
+    background-color: #0f1e29;
     overflow-x: hidden;
     color: #FFFAFA;
 }
@@ -87,7 +88,7 @@ ul li
 
 ::-webkit-scrollbar-track 
 {
-    background: #0E161D;
+    background: #0a1821;
     border-radius: 100vw;
 }
 
@@ -96,7 +97,7 @@ ul li
 {
     background: #FFFAFA;
     border-radius: 75vw;
-    border: 0.25em solid #0E161D;
+    border: 0.25em solid #0a1821;
 }
 
 /* Navbar */
@@ -145,7 +146,7 @@ a.active::after
 
 .sticky-home
 {
-  background-color: #0E161D;
+  background-color: #0a1821;
   z-index: 1000;
   position: fixed;
   display: flex;
@@ -158,7 +159,7 @@ a.active::after
   min-height: 100px;
   transition: 0.5s ease-out;
   border-bottom-left-radius: 25px 20px;
-  box-shadow: 0 4px 1px -1px #0E161D;
+  box-shadow: 0 4px 1px -1px #0a1821;
 }
 
 .sticky-product
@@ -487,7 +488,7 @@ a.line:hover::after
 
 .lees
 {
-  background-color: #0E161D;
+  background-color: #0a1821;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: left;
@@ -495,7 +496,10 @@ a.line:hover::after
 
 .secondary
 {
-    background-color: #131F28;
+  background-image: url("/images/colorkit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .containerproject
@@ -527,7 +531,7 @@ a.line:hover::after
   content: '';
   height: 100%;
   width: 100%;
-  background-color: #0E161D;
+  background-color: #0a1821;
   position: absolute;
   opacity: var(--hover-opacity);
   z-index: 1;
@@ -568,7 +572,7 @@ a.line:hover::after
 .footer
 {
   font-weight: 200;
-    background-color: #0E161D;
+    background-color: #0a1821;
     width: 100%;
     margin: 0 auto;
     padding: 25px 50px 25px;
@@ -619,8 +623,8 @@ hr
 {
   margin-top: 35px;
   margin-bottom: 35px;
-  background-color: #131F28;
-  border: 2px solid #131F28;
+  background-color: #0f1e29;
+  border: 2px solid #0f1e29;
   border-radius: 5px;
   width: 100%;
 }
@@ -629,8 +633,8 @@ hr.version
 {
   margin-top: 35px;
   margin-bottom: 35px;
-  background-color: #0E161D;
-  border: 2px solid #0E161D;
+  background-color: #0a1821;
+  border: 2px solid #0a1821;
   border-radius: 5px;
   width: 100%;
 }
@@ -708,9 +712,10 @@ hr.version
 table
 { 
   width: 100%;
-  background-color: #131F28;
+  background-color: #0f1e29;
   border-radius: 20px;
   margin-top: 25px;
+  table-layout: fixed;
 }
 
 th
@@ -725,7 +730,7 @@ th
 
 table, th, td
 {
-  border: 5px solid #0E161D;
+  border: 5px solid #0a1821;
   border-collapse: collapse;
 }
 
