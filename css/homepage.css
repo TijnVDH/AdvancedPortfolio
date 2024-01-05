@@ -366,9 +366,13 @@
       color: #00c9fd;
   }
   
+a.test
+{
+  margin: 50px 50px 0;
+}
+
   .explore
   {
-      margin-top: 50px;
       padding: 10px 25px;
       border-color: #00c9fd;
       border-style: solid;
@@ -763,4 +767,11 @@
     -webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
     z-index: 2;
+  }
+
+  .buttons
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
