@@ -42,8 +42,8 @@
   html
   {
       scroll-behavior: smooth;
-      --default-opacity: 0.4;
-      --hover-opacity: 0.6;
+      --default-opacity: 1;
+      --hover-opacity: 0.1;
       --text-opacity: 1;
   }
   
@@ -530,7 +530,7 @@ a.test
   .project:hover .project-info
   {
     transform: translateY(-125px);
-    opacity: var(--text-opacity);
+    opacity: var(--default-opacity);
   }
   
   .project::before
@@ -567,7 +567,12 @@ a.test
       letter-spacing: 4px;
       font-size: 10px;
       font-weight: 100;
-  }
+    }
+
+    .projectname
+    {
+      color: #FFFAFA;
+    }
   
   .project-info h1
   {
@@ -622,7 +627,6 @@ a.test
     object-fit: cover;
     transform: scale(1.08);
     transition: all .4s;
-    filter: blur(1.5px);
     z-index: 1;
   }
   
