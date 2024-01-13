@@ -782,3 +782,8 @@ a.test
     justify-content: center;
     align-items: center;
   }
+
+  .competence
+  {
+    margin-right: 25px;
+  }
