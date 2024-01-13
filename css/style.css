@@ -756,9 +756,12 @@ th, td
   border-radius: 20px;
 }
 
-.company .deliverable:hover
+/* .company .deliverable:hover
 {
-  -webkit-transform:scale(1.5); /* or some other value */
+  -webkit-transform:scale(1.5); 
   transform:scale(1.5);
   z-index: 2;
-}
+} 
+
+*/
+
