@@ -768,7 +768,7 @@ th, td
 .proof-content
 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(550px, auto));
   align-items: center;
   gap: 2.3rem;
   margin-top: 4.2rem;
@@ -798,4 +798,27 @@ th, td
   align-items: center;
   justify-content: space-between;
   margin-bottom: .5rem;
+}
+
+.row h3
+{
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 5px;
+  background: #0a1821;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.row-text h2
+{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.learningoutcome
+{
+  display: flex;
+  align-items: center;
 }
