@@ -765,3 +765,37 @@ th, td
 
 */
 
+.proof-content
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  align-items: center;
+  gap: 2.3rem;
+  margin-top: 4.2rem;
+}
+
+.row img
+{
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1.4rem;
+}
+
+.row
+{
+  background: #0f1e29;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 1px -1px #0a1821;
+  padding: 20px;
+  transition: all .5s ease;
+}
+
+.main-row
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
