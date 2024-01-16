@@ -62,7 +62,7 @@ body
     letter-spacing: 1px;
     background-size: cover;
     background-position: center;
-    background-color: #0f1e29;
+    background-color: #0a1821;
     overflow-x: hidden;
     color: #FFFAFA;
 }
@@ -486,7 +486,7 @@ a.line:hover::after
 
 .lees
 {
-  background-color: #0a1821;
+  background-color: #0f1e29;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: left;
@@ -621,8 +621,8 @@ hr
 {
   margin-top: 35px;
   margin-bottom: 35px;
-  background-color: #0f1e29;
-  border: 2px solid #0f1e29;
+  background-color: #0a1821;
+  border: 2px solid #0a1821;
   border-radius: 5px;
   width: 100%;
 }
@@ -780,11 +780,17 @@ th, td
   width: 100%;
   border-radius: 15px;
   margin-bottom: 1.4rem;
+  transition: .8s ease-in-out;
+}
+
+.row img:hover
+{
+  transform: scale(1.03);
 }
 
 .row
 {
-  background: #0f1e29;
+  background: #0a1821;
   border-radius: 15px;
   border: 1px solid transparent;
   box-shadow: 0 4px 1px -1px #0a1821;
@@ -806,7 +812,7 @@ th, td
   font-weight: 200;
   text-transform: uppercase;
   margin: 5px;
-  background: #0a1821;
+  background: #0f1e29;
   border-radius: 15px;
   padding: 10px;
 }
@@ -814,11 +820,22 @@ th, td
 .row-text h2
 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
+  color: #FFFAFA;
 }
 
 .learningoutcome
 {
   display: flex;
   align-items: center;
+}
+
+hr.version
+{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-color: #0f1e29;
+  border: 2px solid #0f1e29;
+  border-radius: 5px;
+  width: 100%;
 }
