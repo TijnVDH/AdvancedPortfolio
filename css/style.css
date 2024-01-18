@@ -784,20 +784,6 @@ th, td
   margin-top: 4.2rem;
 }
 
-.row img
-{
-  height: auto;
-  width: 100%;
-  border-radius: 15px;
-  margin-bottom: 1.4rem;
-  transition: .8s ease-in-out;
-}
-
-.row img:hover
-{
-  transform: scale(1.03);
-}
-
 .row
 {
   background: #0a1821;
@@ -806,6 +792,23 @@ th, td
   box-shadow: 0 4px 1px -1px #0a1821;
   padding: 20px;
   transition: all .5s ease;
+}
+
+.row img
+{
+  margin: auto;
+  display: block;
+  height: 300px;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1.4rem;
+  transition: .8s ease-in-out;
+  object-fit: cover;
+}
+
+.row img:hover
+{
+  transform: scale(1.03);
 }
 
 .main-row
